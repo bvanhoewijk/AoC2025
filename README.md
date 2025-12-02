@@ -1,6 +1,6 @@
 # Advent of Code 2025
 
-Repository for storing the code for [Advent of Code 2024](https://adventofcode.com/2024). 
+Repository for storing the code for [Advent of Code 2025](https://adventofcode.com/2025). 
 
 Rules I impose on myself:
 1. Code must not be generated via A.I.
@@ -10,6 +10,9 @@ Rules I impose on myself:
 Goal is to solve fun programming exercises to improve my coding skills.
 
 --- 
+## Day 02: ⭐⭐
+- [x] Part 1: Slice and compare
+- [x] Part 2: look-ahead regex
 
 ## Day 01: ⭐⭐
 - [x] Part 1: Rotating of dials. Solved by modulo.
