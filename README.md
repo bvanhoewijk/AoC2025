@@ -10,6 +10,10 @@ Rules I impose on myself:
 Goal is to solve fun programming exercises to improve my coding skills.
 
 --- 
+## Day 03: ⭐⭐
+- [x] Part 1: argmax
+- [x] Part 2: Very difficult with argmax in a sliding window. I needed help from reddit for this one. 
+
 ## Day 02: ⭐⭐
 - [x] Part 1: Slice and compare
 - [x] Part 2: look-ahead regex
