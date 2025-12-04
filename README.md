@@ -10,6 +10,10 @@ Rules I impose on myself:
 Goal is to solve fun programming exercises to improve my coding skills.
 
 --- 
+## Day 04: ⭐⭐
+- [x] Part 1: loop through coordinates. Trick was not to loop through the grid.
+- [x] Part 2: loop through coordinates with While loop. I found this one way easier than Part 2 of yesterday.
+
 ## Day 03: ⭐⭐
 - [x] Part 1: argmax
 - [x] Part 2: Very difficult with argmax in a sliding window. I needed help from reddit for this one. 
