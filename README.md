@@ -10,7 +10,7 @@ Rules I impose on myself:
 Goal is to solve fun programming exercises to improve my coding skills.
 
 --- 
-## Day 04: ⭐⭐
+## Day 05: ⭐⭐
 - [x] Part 1: Find item in interval range
 - [x] Part 2: Merge interval ranges
 
