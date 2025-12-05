@@ -11,6 +11,10 @@ Goal is to solve fun programming exercises to improve my coding skills.
 
 --- 
 ## Day 04: ⭐⭐
+- [x] Part 1: Find item in interval range
+- [x] Part 2: Merge interval ranges
+
+## Day 04: ⭐⭐
 - [x] Part 1: loop through coordinates. Trick was not to loop through the grid.
 - [x] Part 2: loop through coordinates with While loop. I found this one way easier than Part 2 of yesterday.
 

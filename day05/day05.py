@@ -9,6 +9,7 @@ def part1(ingredients, intervals):
             good.append(ing)
     print("Solution part1: ", len(good))
 
+
 def merge_overlap(intervals):
     n = len(intervals)
 
@@ -24,21 +25,23 @@ def merge_overlap(intervals):
             continue
 
         # Find the end of the merged range:
-        for j in range(i+1, n):
+        for j in range(i + 1, n):
             if intervals[j][0] <= end:
                 end = max(end, intervals[j][1])
         result.append([start, end])
     return result
+
 
 def part2(intervals):
     intervals = merge_overlap(intervals)
 
     interval_sum = 0
     for interval in intervals:
-        interval_sum += len(range(interval[0], interval[1]+1))
+        interval_sum += len(range(interval[0], interval[1] + 1))
     print("Solution part2: ", interval_sum)
 
-if __name__ == "__main__":
+
+def main():
     intervals = []
     first_part = True
     ingredients = []
@@ -57,4 +60,7 @@ if __name__ == "__main__":
 
     part1(ingredients, intervals)
     part2(intervals)
-    
+
+
+if __name__ == "__main__":
+    main()
