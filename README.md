@@ -10,6 +10,10 @@ Rules I impose on myself:
 Goal is to solve fun programming exercises to improve my coding skills.
 
 --- 
+## Day 07: ⭐⭐
+- [x] Part 1: BFS
+- [x] Part 2: BFS was not going to work. I could have tried memoization, but ended up with a "Pascals" triangle kind of approach by summing the possible paths given the previous score.
+
 ## Day 06: ⭐⭐
 - [x] Part 1: Parse text file and iterate over the columns
 - [x] Part 2: Solved by transposing and cutting the dataset in blocks and process those.
