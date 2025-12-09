@@ -10,6 +10,10 @@ Rules I impose on myself:
 Goal is to solve fun programming exercises to improve my coding skills.
 
 --- 
+## Day 09: ⭐⭐
+- [x] Part 1: Part 1 was trivial
+- [x] Part 2: For part 2 I first tried to do connect the path to create the polygon positions and then floodfill the outside, which was the wrong approach as it took way too long. I also tried raytracing, to find intersections, but also too slow. Finally, I ended up using `shapely.geometry` with `Polygon` and `box` objects and used `polygon.contains(rectangle)`.
+
 ## Day 08: ⭐⭐
 - [x] Part 1: Reading is hard. Used itertools.combinations to get all pairs. Then I sort that list and process and merge the first 1000 combinations/nodes.
 - [x] Part 2: Merge until there is only one merged node. 
