@@ -50,7 +50,7 @@ def part2(dataset):
     circuit = [set([x]) for x in dataset]
 
     # Loop through all distances until done:
-    for d in distances:
+    for i, d in enumerate(distances):
         node1 = d[0][0]
         node2 = d[0][1]
 
@@ -64,7 +64,7 @@ def part2(dataset):
         circuit = [x for x in circuit if x not in [values1, values2]]
         circuit.append(new)
         if len(circuit) == 1:
-            print("Solution part 2:", node1[0] * node2[0])
+            print(f"Solution part 2: {node1[0] * node2[0]} ({i+1}/{len(distances)} merges)")
             break
 
 def find(x, circuit):
