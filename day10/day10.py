@@ -1,6 +1,7 @@
 from itertools import combinations
 from pprint import pprint
 
+
 def part2(dataset):
     pass
 
@@ -15,8 +16,7 @@ def parse_input(file):
         # .##. / 0110
         # First block
         diagram = tuple(x == "#" for x in list(row.pop(0)[1:-1]))
-        
-        
+
         # Required Joltages (unused for part1)
         # {3,5,4,7}
         # Last block
@@ -31,32 +31,34 @@ def parse_input(file):
             for x in map(int, item[1:-1].split(",")):
                 wiring[x] = True
             wirings.append(wiring)
-        entry['diagram'] = diagram
-        entry['joltage'] = joltage
-        entry['wirings'] = wirings
+        entry["diagram"] = diagram
+        entry["joltage"] = joltage
+        entry["wirings"] = wirings
         entries.append(entry)
-        
+
     return entries
 
-def xor(a,b):
-    return tuple(x ^ y for x,y in zip(a,b))
+
+def xor(a, b):
+    return tuple(x ^ y for x, y in zip(a, b))
+
 
 def part1(entries):
     solution = []
 
     for entry in entries:
         result = None
-        for n in range(1, len(entry['wirings'])+1):
-            if result: 
+        for n in range(1, len(entry["wirings"]) + 1):
+            if result:
                 solution.append(result)
                 break
-            button_options = list(combinations(entry['wirings'], n))
-            
+            button_options = list(combinations(entry["wirings"], n))
+
             for buttons in button_options:
-                current = tuple([False] * len(entry['diagram']))
+                current = tuple([False] * len(entry["diagram"]))
                 for button in buttons:
                     current = xor(current, button)
-                if current == entry['diagram']:
+                if current == entry["diagram"]:
                     result = n
     print("Solution part1:", sum(solution))
 
@@ -68,4 +70,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
