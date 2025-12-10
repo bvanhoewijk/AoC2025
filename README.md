@@ -10,6 +10,10 @@ Rules I impose on myself:
 Goal is to solve fun programming exercises to improve my coding skills.
 
 --- 
+## Day 10: ⭐
+- [x] Part 1: Transform the input to boolean lists/tuples and xor. Next; try all `combinations` of `n` buttons.
+- [ ] Part 2: I have no clue on how to even start with this.
+
 ## Day 09: ⭐⭐
 - [x] Part 1: Part 1 was trivial
 - [x] Part 2: For part 2 I first tried to do connect the path to create the polygon positions and then floodfill the outside, which was the wrong approach as it took way too long. I also tried raytracing, to find intersections, but also too slow. Finally, I ended up using `shapely.geometry` with `Polygon` and `box` objects and used `polygon.contains(rectangle)`.
