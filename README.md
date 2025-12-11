@@ -9,10 +9,16 @@ Rules I impose on myself:
 
 Goal is to solve fun programming exercises to improve my coding skills.
 
+---
+
 Things learned:
 - Memoized DFS
-
 --- 
+
+Total stars: 21/22
+
+
+
 ## Day 11: ⭐⭐
 - [x] Part 1: Simple DFS
 - [x] Part 2: Took a hint from Reddit for this one: Memoized DFS where the key is "next node", dac == seen and fft == seen. 
