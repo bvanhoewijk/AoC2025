@@ -9,7 +9,14 @@ Rules I impose on myself:
 
 Goal is to solve fun programming exercises to improve my coding skills.
 
+Things learned:
+- Memoized DFS
+
 --- 
+## Day 11: ⭐⭐
+- [x] Part 1: Simple DFS
+- [x] Part 2: Took a hint from Reddit for this one: Memoized DFS where the key is "next node", dac == seen and fft == seen. 
+
 ## Day 10: ⭐
 - [x] Part 1: Transform the input to boolean lists/tuples and xor. Next; try all `combinations` of `n` buttons.
 - [ ] Part 2: I have no clue on how to even start with this.
@@ -21,7 +28,6 @@ Goal is to solve fun programming exercises to improve my coding skills.
 ## Day 08: ⭐⭐
 - [x] Part 1: Reading is hard. Used itertools.combinations to get all pairs. Then I sort that list and process and merge the first 1000 combinations/nodes.
 - [x] Part 2: Merge until there is only one merged node. 
-
 
 ## Day 07: ⭐⭐
 - [x] Part 1: BFS
