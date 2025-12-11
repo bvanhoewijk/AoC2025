@@ -11,7 +11,10 @@ Goal is to solve fun programming exercises to improve my coding skills.
 
 ---
 
-Things learned:
+New things learned:
+- Look-ahead regex
+- Merging interval ranges
+- Working with polygons
 - Memoized DFS
 --- 
 
