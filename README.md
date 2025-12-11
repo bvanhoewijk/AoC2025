@@ -1,6 +1,6 @@
 # Advent of Code 2025
 
-Repository for storing the code for [Advent of Code 2025](https://adventofcode.com/2025). 
+Repository for storing the code for [Advent of Code 2025](https://adventofcode.com/2025). Previous years: [2024](https://github.com/bvanhoewijk/AoC2024), [2023](https://github.com/bvanhoewijk/AoC2023).
 
 Rules I impose on myself:
 1. Code must not be generated via A.I.
