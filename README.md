@@ -21,7 +21,7 @@ Total stars: 21/22
 
 ## Day 11: ⭐⭐
 - [x] Part 1: Simple DFS
-- [x] Part 2: Took a hint from Reddit for this one: Memoized DFS where the key is "next node", dac == seen and fft == seen. 
+- [x] Part 2: Took a hint from Reddit for this one: *Memoized DFS* where the key is "next node", dac == seen and fft == seen. 
 
 ## Day 10: ⭐
 - [x] Part 1: Transform the input to boolean lists/tuples and xor. Next; try all `combinations` of `n` buttons.
