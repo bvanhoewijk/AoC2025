@@ -59,7 +59,9 @@ def part2(dataset):
         # Add new
         circuit.append(values2 | values1)
         if len(circuit) == 1:
-            print(f"Solution part 2: {node1[0] * node2[0]} ({i+1}/{len(distances)} merges)")
+            print(
+                f"Solution part 2: {node1[0] * node2[0]} ({i+1}/{len(distances)} merges)"
+            )
             break
 
 

@@ -18,9 +18,12 @@ New things learned:
 - Memoized DFS
 --- 
 
-Total stars: 21/22
+Total stars: 22/24: Everything except Day 10 Part 2! Quite happpy with the result and I learned a couple of new things!
 
 
+## Day 12: ⭐
+- [x] Part 1: Sum (Area of presents < Area of placement). The creator could have made this one much more complicated.
+- [x] Part 2: N/A
 
 ## Day 11: ⭐⭐
 - [x] Part 1: Simple DFS

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def part1(dataset):
     pass
 
@@ -5,6 +7,9 @@ def part1(dataset):
 def part2(dataset):
     pass
 
+def main():
+    dataset = [item for item in open("small.txt", "r").readlines()]
+    print(dataset)
 
 if __name__ == "__main__":
-    dataset = [item for item in open("small.txt", "r").readlines()[0].split(" ")]
+    main()
