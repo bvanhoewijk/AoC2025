@@ -31,7 +31,7 @@ Total stars: 22/24: Everything except Day 10 Part 2! Quite happpy with the resul
 
 ## Day 10: ⭐
 - [x] Part 1: Transform the input to boolean lists/tuples and xor. Next; try all `combinations` of `n` buttons.
-- [ ] Part 2: I have no clue on how to even start with this.
+- [ ] Part 2: I have no clue on how to even start with this. Even the Reddit answers puzzle me completely. 
 
 ## Day 09: ⭐⭐
 - [x] Part 1: Part 1 was trivial
